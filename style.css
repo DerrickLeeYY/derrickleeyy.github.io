@@ -1,66 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Derrick Lee's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Derrick Lee</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
 
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Welcome! I'm Derrick, a passionate engineer and programmer with a love for problem-solving and creating meaningful solutions. I have a diverse skill set spanning Python, C++, VBA, and more, with experience in robotics, data science, and engineering applications. Below are some of the most notable projects I've worked on.</p>
-        </section>
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
 
-        <section id="projects">
-            <h2>Projects</h2>
+header h1 {
+    margin: 0;
+}
 
-            <div class="project">
-                <h3>Ball Collection Robot (Python)</h3>
-                <p>As part of the programming team, I developed a logic system for a robotic ball collection task. I designed a mechanism to detect and autocorrect ball detection overshoots using sensor timing and created a dynamic travel distance algorithm based on ultrasonic sensor readings.</p>
-            </div>
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
 
-            <div class="project">
-                <h3>Bermuda Triangle Data Science (Python)</h3>
-                <p>Analyzed data containing hundreds of thousands of latitude and longitude points to investigate abnormalities in the Bermuda Triangle. I implemented a custom algorithm to filter points within the triangle for statistical analysis, uncovering insights about potential anomalies.</p>
-            </div>
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
 
-            <div class="project">
-                <h3>Intruder Detection Arm (Python)</h3>
-                <p>Led the machine learning efforts using YOLOv3 to detect intruders. Developed a 2D-to-3D coordinate conversion system to enable inverse kinematics for precise robotic arm movements.</p>
-            </div>
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
 
-            <div class="project">
-                <h3>NFC Vending Machine (C++)</h3>
-                <p>Designed and CNC-cut components for a custom NFC vending machine. Developed efficient logic for handling NFC scanning processes. The machine was designed to be modular and dynamic, avoiding hardcoding for enhanced operation flexibility. This project won the Gold Award among 25 teams.</p>
-            </div>
+/* Main Content */
+main {
+    padding: 2rem;
+}
 
-            <div class="project">
-                <h3>VBA Calculator (VBA)</h3>
-                <p>During my internship, I analyzed 20 years of raw operational data to create a dynamic Excel-based calculator. This tool tracks individual component lifespans and usage, enabling the company to make data-driven maintenance decisions. The calculator is still actively used today.</p>
-            </div>
-        </section>
+section {
+    margin-bottom: 2rem;
+}
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:derrickleeyy@example.com">derrickleeyy@example.com</a></p>
-        </section>
-    </main>
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}
 
-    <footer>
-        <p>&copy; 2025 Derrick Lee. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+.project {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
