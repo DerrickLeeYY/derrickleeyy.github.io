@@ -99,4 +99,4 @@ Also, here are some other details and photos about the project you might find in
 
 <h3>Our Spotlight Arm Tracking Someone:</h3>
 
-![Spotlight Arm Tracking Someone](./10.png)
+![Spotlight Arm Tracking Someone](./tracking.gif)
