@@ -31,12 +31,13 @@ const anyProjects =
       </TextLink>
       <nav class="flex items-center gap-1 text-sm">
         <TextLink href="mailto:derrickleeyy@gmail.com">contact me</TextLink>
-        
-
+        <span>{`|`}</span>
+        <TextLink href="https://www.linkedin.com/in/derrick-lee-yy/">linkedin</TextLink>
         {" "}
         {
           anyBlogPosts && (
             <>
+
               <span>{`|`}</span>
               <TextLink href={resolvePath("/blog", Astro.url.pathname)}>
                 blog

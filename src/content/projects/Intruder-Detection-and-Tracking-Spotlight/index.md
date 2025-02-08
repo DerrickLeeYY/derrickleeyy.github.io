@@ -25,7 +25,7 @@ My responsibilities in the team was mainly for setting up and connecting a machi
 - The first 3 bubbles were my key responsibilities.
 
 ---
-Equipment Utilized
+Equipment
 ---
 
 The following were the additional things we had to use to make this project a reality.
@@ -40,7 +40,7 @@ The following were the additional things we had to use to make this project a re
 - A small but high intensity torchlight.
 
 ---
-Computer Vision and Machine Learning Implementation
+Computer Vision & Machine Learning Implementation
 ---
 There's not much to say here to be honest, OpenCV library was used to enable Python to access the webcam and there were many pre-trained machine learning model on the internet. I just chose a few that were fast enough to enable relatively smooth tracking on laptop hardware. YoloV4 was the final model that had a good mix of performance and accuracy of detection. 
 
