@@ -2,10 +2,8 @@
 title: "Novel Design of a Lunar Rover"
 date: "2022-03-31"
 tags:
-   - Solidworks
-   - 3D Modelling
-   - Stress Simulation
-   - Movement Simulation
+   - Solidworks CAD
+   - Stress Analysis
    - FMEA
 ---
 

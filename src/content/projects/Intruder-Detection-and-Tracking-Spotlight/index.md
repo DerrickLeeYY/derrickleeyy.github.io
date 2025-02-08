@@ -2,11 +2,8 @@
 title: "Intruder Detection & Tracking Spotlight"
 date: "2023-11-30"
 tags:
-   - Machine Learning
    - Python
    - YoloV4
-   - Coordinate Conversion
-   - Inverse Kinematics
    - OpenCV
 ---
 Context
