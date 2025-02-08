@@ -1,0 +1,70 @@
+---
+import TextLink from "@components/TextLink.astro";
+import { resolvePath } from "@lib/utils";
+
+type Props = {
+  small?: boolean;
+};
+
+const { small } = Astro.props;
+---
+
+<div style={small ? "font-size: 0.875rem" : ""}>
+  <p>
+    I am a mechanical engineer, robotics engineer and programmer with a deep passion for
+    problem-solving and innovation. My work spans across robotics, data science,
+    and engineering, with experience in <TextLink href="https://www.python.org/">Python</TextLink>,
+    <TextLink href="https://cplusplus.com/">C++</TextLink>, VBA, and more.
+  </p>
+
+  <p>
+    I specialize in mechatronics and robotics where I bring together software and
+    hardware to create efficient and scalable solutions. Projects I have worked on utilized my skills ranging from
+    Solidworks CAD modelling, association rule mining, principle component analysis,
+    machine learning & computer vision implementation, 
+    hard coded & soft coded robotics motion planning, 2D to 3D coordinate processing, ANSYS computational fluid dynamics simulations,
+    and many more.
+  </p>
+<hr />
+  <p>
+  <h2>Education</h2>
+  </p>
+
+<ul>
+  <li>
+    <TextLink href="https://www.topuniversities.com/universities/nanyang-technological-university-singapore-ntu-singapore">
+      Nanyang Technological University
+    </TextLink>
+    <br />
+    Bachelor of Engineering in Mechanical Engineering (Honours - Distinction)
+    <br /> - Specialization in Mechatronics & Robotics
+  </li>
+
+  <li>
+    <TextLink href="https://www.sp.edu.sg/">
+      Singapore Polytechnic
+    </TextLink>
+    <br />
+    Diploma in Chemical Engineering (IChemE Accreditation)
+  </li>
+</ul>
+<hr />
+  <p>
+  <h2>Awards</h2>
+  </p>
+
+  <ul>
+    <li>🏆 NTU Mechatronics Gold Award <br />(Project: Soft-Coded Contactless Pharmacy)</li>
+    <li>🏵️ Shortlisted for NTU Lunar Exploration Innovation Challenge 2022</li>
+    <li>📜 Edusave Academic Achievement Award</li>
+    <li>⚙️ Edusave Skills Award</li>
+  </ul>
+  <hr />
+  <p>
+    I enjoy tackling technical challenges, optimizing systems, and
+    leveraging technology to make a difference. I'm always
+    excited to learn and push boundaries.
+  </p>
+
+  <p>Let’s build something amazing!</p>
+</div>
