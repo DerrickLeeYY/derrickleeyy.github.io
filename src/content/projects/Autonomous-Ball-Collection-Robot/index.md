@@ -68,7 +68,13 @@ As part of the programming team, we need to work with the sensors a lot. Besides
 
 - From the data, we can see that analogue reading vs distance follows an inverse power relationship. 
 
-After gathering the behaviour of each individual sensor, we were in a better position to program the distances for our robot to turn or travel.
+<h3>TCRT5000 Infrared Reflective Sensor:</h3>
+
+![TCRT5000 Infrared Reflective Sensor](./linesensor.png)
+
+- There is nothing much to comment on this sensor. This sensor is used to detect the yellow lines of the periphery of the arena. All sensors had similar outputs and the threshold to detect a change between the main arena and the periphery was stark enough that no additional preparation was required for us to use these sensors.
+
+After gathering the behaviour of all sensors, we were in a better position to program the distances for our robot to turn or travel.
 
 ---
 Sensor Placement
